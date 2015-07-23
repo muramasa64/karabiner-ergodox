@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  NICOLA layout on Dvorak for HHKB Professional JP
+
+  Auther: ISOBE Kazuhiko ( muramasa64@gmail.com )
+  Licence: MIT License
+  Uri: https://github.com/muramasa64/hhkbprojp-dvorak-nicola
+-->
+<root>
+  <item>
+    <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <include path="includes/base.xml" />
+  </item>
+</root>
