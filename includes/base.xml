@@ -4,5 +4,6 @@
     <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
     <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
+    <device_only>HHKB_PRO_JP</device_only>
   </item>
 </root>
