@@ -9,6 +9,7 @@
 <root>
   <item>
     <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <include path="includes/device.xml" />
     <include path="includes/base.xml" />
   </item>
 </root>
