@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
-    <inputmode_only>JAPANESE</inputmode_only>
-    <not>PASSWORD</not>
-    <device_only>DeviceProduct::HHKB_PRO_JP</device_only>
   </item>
 </root>
 
