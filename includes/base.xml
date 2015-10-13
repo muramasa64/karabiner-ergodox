@@ -2,6 +2,7 @@
 <root>
   <item>
     <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <appendix></appendix>
     <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
     <device_only>DeviceProduct::HHKB_PRO_JP</device_only>
