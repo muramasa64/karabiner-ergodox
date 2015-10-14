@@ -58,11 +58,11 @@
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::T, KeyCode::SLASH, KeyCode::A,  KeyCode::VK_NONE</autogen>
 
     <!-- 左手 下段 -->
-    <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::JIS_ATMARK,            KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::J, KeyCode::G,         KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::SEMICOLON, KeyCode::F, KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::J, KeyCode::F,         KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::J, KeyCode::D,         KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::E, ModifierFlag::OPTION_L, KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::J, KeyCode::G,             KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::SEMICOLON, KeyCode::F,     KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::J, KeyCode::F,             KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::J, KeyCode::D,             KeyCode::VK_NONE</autogen>
     <!-- 左手 下段 (順親指シフト) -->
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::Z, KeyCode::B, KeyCode::F, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::X, KeyCode::JIS_COLON,     KeyCode::VK_NONE</autogen>
