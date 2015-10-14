@@ -88,7 +88,7 @@
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::J, KeyCode::S,                                 KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::K, KeyCode::L, KeyCode::S,                     KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::L, KeyCode::B, KeyCode::T, KeyCode::S,         KeyCode::VK_NONE</autogen>
-    <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::SEMICOLON, KeyCode::B, KeyCode::T, KeyCode::F, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::SEMICOLON, KeyCode::B, KeyCode::K, KeyCode::F, KeyCode::VK_NONE</autogen>
     <!-- 右手 中段 (クロス親指シフト) -->
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::H, KeyCode::N, KeyCode::A, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::J, KeyCode::H, KeyCode::S, KeyCode::VK_NONE</autogen>
