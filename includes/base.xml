@@ -10,6 +10,10 @@
     <!-- 親指シフトキー -->
     <replacementdef>
         <replacementname>LEFT_THUMB</replacementname>
+        <replacementvalue>KeyCode::SPACE</replacementvalue>
+    </replacementdef>
+    <replacementdef>
+        <replacementname>LEFT_THUMB2</replacementname>
         <replacementvalue>KeyCode::JIS_EISUU</replacementvalue>
     </replacementdef>
     <replacementdef>
@@ -31,6 +35,11 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::D, KeyCode::L, KeyCode::A,             KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::F, KeyCode::B, KeyCode::T, KeyCode::F, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::G, KeyCode::M, KeyCode::S,             KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::A, KeyCode::COMMA, KeyCode::S,         KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::S, KeyCode::A,                         KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::D, KeyCode::L, KeyCode::A,             KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::F, KeyCode::B, KeyCode::T, KeyCode::F, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::G, KeyCode::M, KeyCode::S,             KeyCode::VK_NONE</autogen>
     <!-- 左手 中段 (クロス親指シフト) -->
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::A, KeyCode::DOT, KeyCode::F,    KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::S, KeyCode::SLASH, KeyCode::G,  KeyCode::VK_NONE</autogen>
@@ -50,6 +59,11 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::E, KeyCode::O, KeyCode::G,             KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::R, KeyCode::B, KeyCode::T, KeyCode::A, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::T, KeyCode::O, KeyCode::D,             KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::Q, KeyCode::B, KeyCode::A,             KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::W, KeyCode::D,                         KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::E, KeyCode::O, KeyCode::G,             KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::R, KeyCode::B, KeyCode::T, KeyCode::A, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::T, KeyCode::O, KeyCode::D,             KeyCode::VK_NONE</autogen>
     <!-- 左手 上段 (クロス親指シフト) -->
     <!-- Q - 対応キーなし -->
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::W, KeyCode::U, KeyCode::A,      KeyCode::VK_NONE</autogen>
@@ -69,6 +83,11 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::C, KeyCode::O, KeyCode::S, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::V, KeyCode::T, KeyCode::A, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::B, KeyCode::B, KeyCode::G, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::Z, KeyCode::B, KeyCode::F, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::X, KeyCode::JIS_COLON,     KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::C, KeyCode::O, KeyCode::S, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::V, KeyCode::T, KeyCode::A, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::B, KeyCode::B, KeyCode::G, KeyCode::VK_NONE</autogen>
     <!-- 左手 下段 (クロス親指シフト) -->
     <!-- Z - 対応キーなし -->
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::X, KeyCode::N, KeyCode::G,      KeyCode::VK_NONE</autogen>
@@ -94,6 +113,10 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::J, KeyCode::H, KeyCode::S, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::K, KeyCode::U, KeyCode::G, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::L, KeyCode::R, KeyCode::S, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::H, KeyCode::N, KeyCode::A, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::J, KeyCode::H, KeyCode::S, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::K, KeyCode::U, KeyCode::G, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::L, KeyCode::R, KeyCode::S, KeyCode::VK_NONE</autogen>
     <!-- ; - 対応キーなし -->
 
     <!-- 右手 上段 -->
@@ -117,6 +140,11 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::I, KeyCode::U, KeyCode::F, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::O, KeyCode::H, KeyCode::F, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::P, KeyCode::R, KeyCode::G, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::Y, KeyCode::R, KeyCode::A, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::U, KeyCode::H, KeyCode::G, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::I, KeyCode::U, KeyCode::F, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::O, KeyCode::H, KeyCode::F, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::P, KeyCode::R, KeyCode::G, KeyCode::VK_NONE</autogen>
     <!-- @ - 対応キーなし -->
     <!-- [ - 対応キーなし -->
 
@@ -137,6 +165,10 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::M, KeyCode::SLASH, KeyCode::S,     KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::COMMA, KeyCode::R, KeyCode::D, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::DOT, KeyCode::N, KeyCode::S,   KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::N, KeyCode::R, KeyCode::F,     KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::M, KeyCode::SLASH, KeyCode::S,     KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::COMMA, KeyCode::R, KeyCode::D, KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::DOT, KeyCode::N, KeyCode::S,   KeyCode::VK_NONE</autogen>
 
     <!-- 上段 数字キー -->
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::KEY_1, KeyCode::JIS_ATMARK, ModifierFlag::SHIFT_L,      KeyCode::VK_NONE</autogen>
@@ -163,5 +195,17 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::KEY_0, KeyCode::KEY_0, ModifierFlag::SHIFT_L,            KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::MINUS, KeyCode::JIS_BRACKET_LEFT,                        KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::JIS_HAT, KeyCode::JIS_BRACKET_RIGHT,                     KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_1, KeyCode::JIS_ATMARK, ModifierFlag::SHIFT_L,       KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_2, KeyCode::JIS_ATMARK, ModifierFlag::OPTION_L,      KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_3, KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_L,   KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_4, KeyCode::JIS_BRACKET_LEFT,                        KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_5, KeyCode::JIS_BRACKET_RIGHT,                       KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_6, KeyCode::MINUS,                                   KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_7, KeyCode::EQUAL,                                   KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_8, KeyCode::MINUS,                                   KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_9, KeyCode::KEY_9, ModifierFlag::SHIFT_L,            KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::KEY_0, KeyCode::KEY_0, ModifierFlag::SHIFT_L,            KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::MINUS, KeyCode::JIS_BRACKET_LEFT,                        KeyCode::VK_NONE</autogen>
+    <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB2}}, KeyCode::JIS_HAT, KeyCode::JIS_BRACKET_RIGHT,                     KeyCode::VK_NONE</autogen>
   </item>
 </root>
