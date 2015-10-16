@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <name>左シフト=英数、スペース 右シフト=かな</name>
+    <appendix>英数は単独二度押し（単推しは無効）</appendix>
     <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
     <not>PASSWORD</not>
