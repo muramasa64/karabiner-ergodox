@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
 <root>
   <item>
+    <name>かな単押しを無効にする</name>
+    <appendix>かなキーをNICOLAの親指シフトキーとして使うため暴発を防ぐ</appendix>
+    <identifier>private.remap.press-kana-double-only</identifier>
+    <autogen>__DoublePressModifier__ KeyCode::JIS_KANA, KeyCode::VK_NONE, KeyCode::JIS_KANA</autogen>
+  </item>
+  <item>
     <name>左シフト=英数、スペース 右シフト=かな</name>
-    <appendix>英数は単独二度押し（単推しは無効）</appendix>
+    <appendix>英数、かなは単独二度押し</appendix>
     <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
     <not>PASSWORD</not>
@@ -17,8 +23,6 @@
         <replacementname>RIGHT_THUMB</replacementname>
         <replacementvalue>KeyCode::JIS_KANA</replacementvalue>
     </replacementdef>
-    <!-- 英数キーの単推しを無視する（二度押しで有効になる） -->
-    <autogen>__DoublePressModifier__ KeyCode::JIS_EISUU, KeyCode::VK_NONE, KeyCode::JIS_EISUU</autogen>
 
     <!-- 左手 中段 -->
     <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::F,                     KeyCode::VK_NONE</autogen>
