@@ -4,7 +4,7 @@
     <name>英数とかな単押しを無効にする</name>
     <identifier>private.remap.press-kana-double-only</identifier>
     <!-- 英数、かなキーの単推しを無視する（二度押しで有効になる） -->
-    <autogen>__DoublePressModifier__ KeyCode::JIS_KANA, KeyCode::VK_NONE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
+    <autogen>__DoublePressModifier__ KeyCode::JIS_KANA, KeyCode::VK_NONE, KeyCode::JIS_KANA</autogen>
     <autogen>__DoublePressModifier__ KeyCode::JIS_EISUU, KeyCode::VK_NONE, KeyCode::JIS_EISUU</autogen>
   </item>
   <item>
