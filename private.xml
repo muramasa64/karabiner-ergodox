@@ -11,4 +11,8 @@
     <name>NICOLA layout on Dvorak for ErgoDox</name>
     <include path="includes/ergodox.xml" />
   </item>
+  <item>
+    <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <include path="includes/hhkbprojp.xml" />
+  </item>
 </root>
