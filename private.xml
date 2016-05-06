@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!--
-  NICOLA layout on Dvorak for HHKB Professional JP
+  NICOLA layout on Dvorak for ErgoDox
 
   Auther: ISOBE Kazuhiko ( muramasa64@gmail.com )
   Licence: MIT License
-  Uri: https://github.com/muramasa64/hhkbprojp-dvorak-nicola
+  Uri: https://github.com/muramasa64/karabiner-ergodox
 -->
 <root>
   <item>
-    <name>NICOLA layout on Dvorak for HHKB Professional JP</name>
+    <name>NICOLA layout on Dvorak for ErgoDox</name>
     <include path="includes/device.xml" />
     <include path="includes/base.xml" />
   </item>

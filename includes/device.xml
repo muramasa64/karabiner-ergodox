@@ -2,11 +2,11 @@
 <root>
   <!-- PFU Limited Happy Hacking Keyboard Professional JP -->
   <devicevendordef>
-    <vendorname>PFU</vendorname>
-    <vendorid>0x04fe</vendorid>
+    <vendorname>unspecified</vendorname>
+    <vendorid>0x045e</vendorid>
   </devicevendordef>
   <deviceproductdef>
-    <productname>HHKB_PRO_JP</productname>
-    <productid>0x000d</productid>
+    <productname>ErgoDox</productname>
+    <productid>0x6028</productid>
   </deviceproductdef>
 </root>

@@ -1,15 +1,8 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>英数とかな単押しを無効にする</name>
-    <identifier>private.remap.press-kana-double-only</identifier>
-    <!-- 英数、かなキーの単推しを無視する（二度押しで有効になる） -->
-    <autogen>__DoublePressModifier__ KeyCode::JIS_KANA, KeyCode::VK_NONE, KeyCode::JIS_KANA</autogen>
-    <autogen>__DoublePressModifier__ KeyCode::JIS_EISUU, KeyCode::VK_NONE, KeyCode::JIS_EISUU</autogen>
-  </item>
-  <item>
-    <name>左シフト=英数、スペース 右シフト=かな</name>
-    <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
+    <name>左シフト=JIS_UNDERSCORE、右シフト=JIS_YEN</name>
+    <identifier>private.remap.ergodox-nicola</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
     <not>PASSWORD</not>
     <!-- device_only>DeviceProduct::HHKB_PRO_JP</device_only -->
@@ -17,11 +10,11 @@
     <!-- 親指シフトキー -->
     <replacementdef>
         <replacementname>LEFT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_EISUU</replacementvalue>
+        <replacementvalue>KeyCode::JIS_UNDERSCORE</replacementvalue>
     </replacementdef>
     <replacementdef>
         <replacementname>RIGHT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_KANA</replacementvalue>
+        <replacementvalue>KeyCode::JIS_YEN</replacementvalue>
     </replacementdef>
 
     <!-- 左手 中段 -->
@@ -106,8 +99,7 @@
     <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::NONE, KeyCode::K, KeyCode::G,             KeyCode::VK_NONE</autogen>
     <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::V, KeyCode::F,             KeyCode::VK_NONE</autogen>
     <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::NONE, KeyCode::K, KeyCode::F,             KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::NONE, KeyCode::W, ModifierFlag::OPTION_L, KeyCode::VK_NONE</autogen>
-    <autogen>__KeyToKey__ KeyCode::JIS_ATMARK, ModifierFlag::NONE, KeyCode::W,                KeyCode::VK_NONE</autogen>
+    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::NONE, KeyCode::W,                         KeyCode::VK_NONE</autogen>
     <!-- 右手 上段 (順親指シフト) -->
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::Y, KeyCode::T, KeyCode::S, KeyCode::VK_NONE</autogen>
     <autogen>__SimultaneousKeyPresses__ {{RIGHT_THUMB}}, KeyCode::U, KeyCode::L, KeyCode::G, KeyCode::VK_NONE</autogen>
