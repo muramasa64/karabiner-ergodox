@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <root>
+  <devicevendordef>
+    <vendorname>unspecified</vendorname>
+    <vendorid>0x045e</vendorid>
+  </devicevendordef>
+  <deviceproductdef>
+    <productname>ErgoDox</productname>
+    <productid>0x6028</productid>
+  </deviceproductdef>
+
   <item>
     <name>左シフト=JIS_UNDERSCORE、右シフト=JIS_YEN</name>
     <identifier>private.remap.ergodox-nicola</identifier>
