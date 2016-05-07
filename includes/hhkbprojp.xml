@@ -11,6 +11,14 @@
   </deviceproductdef>
 
   <item>
+    <name>英数とかな単押しを無効にする</name>
+    <identifier>private.remap.press-kana-double-only</identifier>
+    <!-- 英数、かなキーの単推しを無視する（二度押しで有効になる） -->
+    <autogen>__DoublePressModifier__ KeyCode::JIS_KANA, KeyCode::VK_NONE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
+    <autogen>__DoublePressModifier__ KeyCode::JIS_EISUU, KeyCode::VK_NONE, KeyCode::JIS_EISUU</autogen>
+  </item>
+
+  <item>
     <name>左シフト=英数、スペース 右シフト=かな</name>
     <identifier>private.remap.nicola-dvorak-hhkbprojp</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
@@ -20,11 +28,11 @@
     <!-- 親指シフトキー -->
     <replacementdef>
         <replacementname>LEFT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_UNDERSCORE</replacementvalue>
+        <replacementvalue>KeyCode::JIS_EISUU</replacementvalue>
     </replacementdef>
     <replacementdef>
         <replacementname>RIGHT_THUMB</replacementname>
-		<replacementvalue>KeyCode::JIS_YEN</replacementvalue>
+        <replacementvalue>KeyCode::JIS_KANA</replacementvalue>
     </replacementdef>
 
     <!-- 左手 中段 -->
