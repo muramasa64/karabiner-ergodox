@@ -26,6 +26,10 @@
         <replacementvalue>KeyCode::JIS_YEN</replacementvalue>
     </replacementdef>
 
+    <!-- シフトキーの単推しを無効にする -->
+    <autogen>__DoublePressModifier__ KeyCode::JIS_UNDERSCORE, KeyCode::VK_NONE, KeyCode::JIS_UNDERSCORE</autogen>
+    <autogen>__DoublePressModifier__ KeyCode::JIS_YEN, KeyCode::VK_NONE, KeyCode::JIS_YEN</autogen>
+
     <!-- 左手 中段 -->
     <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::F,                     KeyCode::VK_NONE</autogen>
     <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::NONE, KeyCode::SEMICOLON, KeyCode::G, KeyCode::VK_NONE</autogen>
