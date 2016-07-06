@@ -10,6 +10,12 @@
   </deviceproductdef>
 
   <item>
+    <name>Control+H to Delete</name>
+    <identifier>private.remap.ergodox-ctrl-h-delete</identifier>
+    <autogen>__KeyToKey__ KeyCode::J, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::DELETE</autogen>
+  </item>
+
+  <item>
     <name>左シフト=JIS_UNDERSCORE、右シフト=JIS_YEN</name>
     <identifier>private.remap.ergodox-nicola</identifier>
     <inputmode_only>JAPANESE</inputmode_only>
