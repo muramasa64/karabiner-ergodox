@@ -22,16 +22,6 @@
     <not>PASSWORD</not>
     <!-- device_only>DeviceProduct::HHKB_PRO_JP</device_only -->
 
-    <!-- 親指シフトキー -->
-    <replacementdef>
-        <replacementname>LEFT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_UNDERSCORE</replacementvalue>
-    </replacementdef>
-    <replacementdef>
-        <replacementname>RIGHT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_YEN</replacementvalue>
-    </replacementdef>
-
     <!-- シフトキーの単推しを無効にする -->
     <autogen>__DoublePressModifier__ KeyCode::JIS_UNDERSCORE, KeyCode::VK_NONE, KeyCode::JIS_UNDERSCORE</autogen>
     <autogen>__DoublePressModifier__ KeyCode::JIS_YEN, KeyCode::VK_NONE, KeyCode::JIS_YEN</autogen>
@@ -181,3 +171,4 @@
     <autogen>__SimultaneousKeyPresses__ {{LEFT_THUMB}}, KeyCode::JIS_HAT, KeyCode::JIS_BRACKET_RIGHT,                     KeyCode::VK_NONE</autogen>
   </item>
 </root>
+<!-- vim:set expandtab -->

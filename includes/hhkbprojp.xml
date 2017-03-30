@@ -25,16 +25,6 @@
     <not>PASSWORD</not>
     <!-- device_only>DeviceProduct::HHKB_PRO_JP</device_only -->
 
-    <!-- 親指シフトキー -->
-    <replacementdef>
-        <replacementname>LEFT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_EISUU</replacementvalue>
-    </replacementdef>
-    <replacementdef>
-        <replacementname>RIGHT_THUMB</replacementname>
-        <replacementvalue>KeyCode::JIS_KANA</replacementvalue>
-    </replacementdef>
-
     <!-- 左手 中段 -->
     <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::F,                     KeyCode::VK_NONE</autogen>
     <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::NONE, KeyCode::SEMICOLON, KeyCode::G, KeyCode::VK_NONE</autogen>
