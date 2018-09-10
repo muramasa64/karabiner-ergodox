@@ -1,5 +1,5 @@
 {
-    "title": "Nicola Keymap",
+    "title": "Nicola keymap for Qwerty keyboard to Dvorak layout",
     "rules": [
         {
             "description": "Nicola keymap for Qwerty keyboard to Dvorak layout",
@@ -632,7 +632,7 @@
                     }
                 },
                 {
-                    "description": "Right thumb shift * 2 = 英数",
+                    "description": "Right thumb shift * 2 = かな",
                     "type": "basic",
                     "from": { "key_code": "lang9" },
                     "to": [ { "key_code": "lang1" } ],
