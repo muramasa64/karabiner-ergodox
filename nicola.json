@@ -861,7 +861,7 @@
                         "simultaneous": [ { "key_code": "slash" } ],
                         "modifiers": { "optional": ["any"] }
                     },
-                    "to": [ { "key_code": "b" }, { "key_code": "s" } ],
+                    "to": [ { "key_code": "open_bracket" } ],
                     "conditions": [ { "type": "input_source_if", "input_sources": [ { "language": "ja" } ] } ]
                 }
             ]
