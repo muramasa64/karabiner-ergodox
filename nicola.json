@@ -619,7 +619,7 @@
                 {
                     "description": "Left thumb shift single pressed",
                     "type": "basic",
-                    "parameters": { "to_delayed_action_delay_milliseconds": "200" },
+                    "parameters": { "to_delayed_action_delay_milliseconds": "300" },
                     "from": { "key_code": "lang8" },
                     "to": [
                         { "set_variable": { "name": "lang8 pressed", "value": 1 } },
@@ -641,7 +641,7 @@
                 {
                     "description": "Right thumb shift single pressed",
                     "type": "basic",
-                    "parameters": { "to_delayed_action_delay_milliseconds": "200" },
+                    "parameters": { "to_delayed_action_delay_milliseconds": "300" },
                     "from": { "key_code": "lang9" },
                     "to": [
                         { "set_variable": { "name": "lang9 pressed", "value": 1 } },
