@@ -1,8 +1,8 @@
 {
-    "title": "Nicola keymap for Qwerty keyboard to Dvorak layout",
+    "title": "Ommit-Nicola-QMK keymap for Qwerty keyboard to Dvorak layout",
     "rules": [
         {
-            "description": "Nicola keymap for Qwerty keyboard to Dvorak layout",
+            "description": "Ommit-Nicola-QMK keymap for Qwerty keyboard to Dvorak layout",
             "manipulators": [
                 {
                     "description": "Left thumb + a = 'を'",
