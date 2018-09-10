@@ -1,4 +1,4 @@
-# Karabiner ommit-nicola
+# ommit-nicola
 
 ## 概要
 
