@@ -643,7 +643,7 @@
                     "type": "basic",
                     "parameters": { "to_delayed_action_delay_milliseconds": "300" },
                     "from": { "key_code": "lang9" },
-                    "to": [ { "key_code": "lang8" } ],
+                    "to": [ { "key_code": "lang9" } ],
                     "to_if_alone": [
                         { "key_code": "lang1" },
                         { "set_variable": { "name": "lang9 pressed", "value": 1 } }
