@@ -610,7 +610,7 @@
                     "conditions": [ { "type": "input_source_if", "input_sources": [ { "language": "ja" } ] } ]
                 },
                 {
-                    "description": "Left thumb shift singl * 2",
+                    "description": "Left thumb shift single * 2",
                     "type": "basic",
                     "from": { "key_code": "lang8" },
                     "to": [ { "key_code": "lang8" } ],
