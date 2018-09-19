@@ -614,7 +614,7 @@
                     "type": "basic",
                     "from": { "key_code": "lang8" },
                     "to": [ { "key_code": "lang8" } ],
-                    "conditions": [ { "type": "variable_if", "name": "lang8 single pressed", "value": 1 } ]
+                    "conditions": [ { "type": "variable_if", "name": "lang8-single", "value": 1 } ]
                 },
                 {
                     "description": "Left thumb shift: single * 1 = lang2",
@@ -624,11 +624,11 @@
                     "to": [ { "key_code": "lang8" } ],
                     "to_if_alone": [
                         { "key_code": "lang2" },
-                        { "set_variable": { "name": "lang8 single pressed", "value": 1 } }
+                        { "set_variable": { "name": "lang8-single", "value": 1 } }
                     ],
                     "to_delayed_action": {
-                        "to_if_invoked": [ { "set_variable": { "name": "lang8 single pressed", "value": 0 } } ],
-                        "to_if_canceled": [ { "set_variable": { "name": "lang8 single pressed", "value": 0 } } ]
+                        "to_if_invoked": [ { "set_variable": { "name": "lang8-single", "value": 0 } } ],
+                        "to_if_canceled": [ { "set_variable": { "name": "lang8-single", "value": 0 } } ]
                     }
                 },
                 {
@@ -636,7 +636,7 @@
                     "type": "basic",
                     "from": { "key_code": "lang9" },
                     "to": [ { "key_code": "lang9" } ],
-                    "conditions": [ { "type": "variable_if", "name": "lang9 single pressed", "value": 1 } ]
+                    "conditions": [ { "type": "variable_if", "name": "lang9-single", "value": 1 } ]
                 },
                 {
                     "description": "Right thumb shift: single * 1 = lang1",
@@ -646,11 +646,11 @@
                     "to": [ { "key_code": "lang9" } ],
                     "to_if_alone": [
                         { "key_code": "lang1" },
-                        { "set_variable": { "name": "lang9 pressed", "value": 1 } }
+                        { "set_variable": { "name": "lang9-single", "value": 1 } }
                     ],
                     "to_delayed_action": {
-                        "to_if_invoked": [ { "set_variable": { "name": "lang9 pressed", "value": 0 } } ],
-                        "to_if_canceled": [ { "set_variable": { "name": "lang9 pressed", "value": 0 } } ]
+                        "to_if_invoked": [ { "set_variable": { "name": "lang9-single", "value": 0 } } ],
+                        "to_if_canceled": [ { "set_variable": { "name": "lang9-single", "value": 0 } } ]
                     }
                 }
             ]
