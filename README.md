@@ -30,15 +30,31 @@ ommit-nicolaは、Karabiner-Elementsを使って親指シフト入力をする�
 
 作者の利用してきた環境の歴史的な経緯によって、下記の環境を想定している。
 
-* 物理的な配列はQwerty配列。
-* 論理的な配列はDvorak配列。
-  * OSの設定でQwerty配列からDvorak配列に変換。
+#### Ommit-Nicola keymap for Standard Qwerty keyboard layout
 
-これにより、Karabiner-Elementsが送受信するキーコードはQwerty配列のものとなる。そして、論理的にはDvorak配列を使用しているため、ローマ字入力に使うためのアルファベットのキーコードは、Dvorak用に変換されてInput Methodに送られる。
+* macOSの標準的なキーボードで、英数とかなを親指シフト用として使う
+* OSの設定で、論理配列がQwerty配列になっている
+
+#### Ommit-Nicola keymap for Standard Dvorak keyboard layout
+
+* macOSの標準的なキーボードで、英数とかなを親指シフト用として使う
+* OSの設定で、論理配列がDvorak配列になっている
+
+#### Ommit-Nicola-QMK keymap for Dovark keyboard
+
+* QMKなどを使って、lang8, lang9を親指シフト用に定義しているキーボード
+* QMKなどを使って、Dvorak配列になっているキーボードを使い、OSの設定はQwerty配列のまま
+
+#### Ommit-Nicola-QMK keymap for Qwerty keyboard to Dvorak layout
+
+* QMKなどを使って、lang8, lang9を親指シフト用に定義しているキーボード
+* OSの設定で、Dvorak配列の設定になっている
+
+
+物理的にQwerty配列で、論理配列がDvorakになっているるものは、Karabiner-Elementsが送受信するキーコードもQwerty配列のものとなる。
+論理的にはDvorak配列を使用しているため、ローマ字入力に使うためのアルファベットのキーコードは、Dvorak用に変換されてInput Methodに送られる。
 
 例えば「か」を入力するためには、Karabiner-Elementsは、"k", "a"を送るのではなく、"v", "a"を送らないといけない。Dvorak配列における"k"は、Qwerty配列で"v"の位置にあるためである。
-
-なお、これについてはあくまで暫定的な措置で、将来的には、キーボード側でDvorak配列に対応し、OS側での変換をせずとも利用できるようにする予定である。
 
 ### 親指シフトキーのキーコード
 
